@@ -1,0 +1,39 @@
+GO :
+
+-> create a file name called "app.go"
+-> .go extension of the file
+-> start coding on the file 
+    ex:
+    package main
+    import "fmt"
+    func main(){
+        fmt.Print("Hello world");
+    }
+
+after creating  file run the file 
+
+>> app.go
+
+if you want to build go file need to crate module\
+
+>> go mod init jithu.dev/first-app
+
+it will create a file called "app.mod"
+
+>> go build 
+
+it will create a file called "first-app.exe"
+if you want to run the first-app.exe file 
+
+>> .\first-app.exe
+
+it will give you a Output the Result of the first-app.exe
+
+
+
+
+
+
+
+
+
